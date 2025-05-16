@@ -19,8 +19,8 @@ a {
   color: $primary !important;
 }
 
-.btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba($primary, 0.5) !important;
+.btm-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(lighten($primary, 30%), 0.5) !important;
 }
 
 h1,

@@ -133,7 +133,7 @@ en: &DEFAULT_EN
         image: assets/img/organizers/andreas.webp
         website: https://andreasmadsen.github.io/
       - name: "Abulhair Saparov"
-        role: "New York University"
+        role: "Purdue University"
         image: assets/img/organizers/abu.jpg
         website: https://asaparov.org/
       - name: "Ziyu Yao"

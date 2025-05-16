@@ -1,6 +1,6 @@
 <!-- Schedule -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].schedule.section | default: "schedule" }}">
+<section class="page-section" id="{{ site.data.sitetext[site.locale].schedule.section | default: "schedule" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -54,7 +54,7 @@
   </div>
 </section>
 {% else %}
-<section class="bg-light page-section" id="{{ site.data.sitetext.schedule.section | default: "schedule" }}">
+<section class="page-section" id="{{ site.data.sitetext.schedule.section | default: "schedule" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
