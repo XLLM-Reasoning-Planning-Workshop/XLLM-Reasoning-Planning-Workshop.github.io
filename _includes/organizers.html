@@ -1,0 +1,149 @@
+<!-- Program committee -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].program_committee.section | default: "program_committee" }}">
+<div class="container text-center">
+  <div class="row">
+	<div class="col-lg-12 text-center">
+	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].program_committee.title }}</h2>
+	  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].program_committee.text }}</h3>
+	</div>
+  </div>
+  <h3 class="text-muted">Workshop organizers</h3><br/>
+  <div class="row d-flex justify-content-center">
+  {% for person in site.data.sitetext[site.locale].program_committee.people %}
+	<div class="col-sm-4">
+	  {% if person.website and person.website != "" and person.website != nil %}
+	  <a href="{{ person.website }}" target="_blank">
+	  {% endif %}
+	  <div class="team-member">
+		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+		<h4>{{ person.name }}</h4>
+		<p class="text-muted">{{ person.role }}</p>
+		<ul class="list-inline social-buttons">
+		{% for network in person.social %}
+		  <li class="list-inline-item">
+			<a href="{{ network.url }}" target="_blank">
+			  <i class="{{ network.icon }}"></i>
+			</a>
+		  </li>
+		{% endfor %}
+		</ul>
+	  </div>
+	  {% if person.website and person.website != "" and person.website != nil %}
+	  </a>
+	  {% endif %}
+	</div>
+  {% endfor %}
+  </div>
+  <h3 class="text-muted">Reviewers</h3>
+  <div class="row">
+	<div class="col-lg-8 mx-auto text-center">
+	  <div class="large text-muted">{{ site.data.sitetext[site.locale].program_committee.reviewer_text | markdownify }}</div>
+	</div>
+  </div>
+  <div class="row d-flex justify-content-center">
+  {% for person in site.data.sitetext[site.locale].program_committee.reviewers %}
+	<div class="col-sm-4">
+	  {% if person.website and person.website != "" and person.website != nil %}
+	  <a href="{{ person.website }}" target="_blank">
+	  {% endif %}
+	  <div class="team-member">
+		<h5>{{ person.name }}</h5>
+		<ul class="list-inline social-buttons">
+		{% for network in person.social %}
+		  <li class="list-inline-item">
+			<a href="{{ network.url }}" target="_blank">
+			  <i class="{{ network.icon }}"></i>
+			</a>
+		  </li>
+		{% endfor %}
+		</ul>
+	  </div>
+	  {% if person.website and person.website != "" and person.website != nil %}
+	  </a>
+	  {% endif %}
+	</div>
+  {% endfor %}
+  </div>
+  <div class="row">
+	<div class="col-lg-8 mx-auto text-center">
+	  <div class="large text-muted">{{ site.data.sitetext[site.locale].program_committee.subtext | markdownify }}</div>
+	</div>
+  </div>
+</div>
+</section>
+{% else %}
+<section class="bg-light page-section" id="{{ site.data.sitetext.program_committee.section | default: "program_committee" }}">
+	<div class="container text-center">
+	  <div class="row">
+		<div class="col-lg-12 text-center">
+		  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.program_committee.title }}</h2>
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.program_committee.text }}</h3>
+		</div>
+	  </div>
+	  <h3 class="text-muted">Workshop organizers</h3><br/>
+	  <div class="row d-flex justify-content-center">
+	  {% for person in site.data.sitetext.program_committee.people %}
+		<div class="col-sm-4">
+		  {% if person.website and person.website != "" and person.website != nil %}
+		  <a href="{{ person.website }}" target="_blank">
+		  {% endif %}
+		  <div class="team-member">
+			<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+			<h4>{{ person.name }}</h4>
+			<p class="text-muted">{{ person.role }}</p>
+			<ul class="list-inline social-buttons">
+			{% for network in person.social %}
+			  <li class="list-inline-item">
+				<a href="{{ network.url }}" target="_blank">
+				  <i class="{{ network.icon }}"></i>
+				</a>
+			  </li>
+			{% endfor %}
+			</ul>
+		  </div>
+		  {% if person.website and person.website != "" and person.website != nil %}
+		  </a>
+		  {% endif %}
+		</div>
+	  {% endfor %}
+	  </div>
+	  <h3 class="text-muted">Reviewers</h3>
+	  <div class="row">
+		<div class="col-lg-8 mx-auto text-center">
+		<div class="large text-muted">{{ site.data.sitetext[site.locale].program_committee.reviewer_text | markdownify }}</div>
+		</div>
+	  </div>
+	  <div class="row d-flex justify-content-center">
+	  {% for person in site.data.sitetext[site.locale].program_committee.reviewers %}
+		<div class="col-sm-4">
+		{% if person.website and person.website != "" and person.website != nil %}
+		<a href="{{ person.website }}" target="_blank">
+		{% endif %}
+		<div class="team-member">
+			<h5>{{ person.name }}</h5>
+			<ul class="list-inline social-buttons">
+			{% for network in person.social %}
+			<li class="list-inline-item">
+				<a href="{{ network.url }}" target="_blank">
+				<i class="{{ network.icon }}"></i>
+				</a>
+			</li>
+			{% endfor %}
+			</ul>
+		</div>
+		{% if person.website and person.website != "" and person.website != nil %}
+		</a>
+		{% endif %}
+		</div>
+	{% endfor %}
+	</div>
+	  <div class="row">
+		<div class="col-lg-8 mx-auto text-center">
+		  <div class="large text-muted">{{ site.data.sitetext.program_committee.subtext | markdownify }}</div>
+		</div>
+	  </div>
+	</div>
+</section>
+{% endif %}
+<!-- End Organizers -->

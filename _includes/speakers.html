@@ -1,0 +1,87 @@
+<!-- Speakers -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].speakers.section | default: "speakers" }}">
+<div class="container">
+  <div class="row">
+	<div class="col-lg-12 text-center">
+	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].speakers.title }}</h2>
+	  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].speakers.text }}</h3>
+	</div>
+  </div>
+  <div class="row d-flex justify-content-center">
+  {% for person in site.data.sitetext[site.locale].speakers.people %}
+	<div class="col-sm-4">
+	  {% if person.website and person.website != "" and person.website != nil %}
+	  <a href="{{ person.website }}" target="_blank">
+	  {% endif %}
+	  <div class="team-member">
+		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+		<h4>{{ person.name }}</h4>
+		<p class="text-muted">{{ person.role }}</p>
+		<ul class="list-inline social-buttons">
+		{% for network in person.social %}
+		  <li class="list-inline-item">
+			<a href="{{ network.url }}" target="_blank">
+			  <i class="{{ network.icon }}"></i>
+			</a>
+		  </li>
+		{% endfor %}
+		</ul>
+	  </div>
+	  {% if person.website and person.website != "" and person.website != nil %}
+	  </a>
+	  {% endif %}
+	</div>
+  {% endfor %}
+  </div>
+  <div class="row">
+	<div class="col-lg-8 mx-auto text-center">
+	  <div class="large text-muted">{{ site.data.sitetext[site.locale].speakers.subtext | markdownify }}</div>
+	</div>
+  </div>
+</div>
+</section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.speakers.section | default: "speakers" }}">
+	<div class="container">
+	  <div class="row">
+		<div class="col-lg-12 text-center">
+		  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.speakers.title }}</h2>
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.speakers.text }}</h3>
+		</div>
+	  </div>
+	  <div class="row d-flex justify-content-center">
+	  {% for person in site.data.sitetext.speakers.people %}
+		<div class="col-sm-4">
+		  {% if person.website and person.website != "" and person.website != nil %}
+		  <a href="{{ person.website }}" target="_blank">
+		  {% endif %}
+		  <div class="team-member">
+			<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+			<h4>{{ person.name }}</h4>
+			<p class="text-muted">{{ person.role }}</p>
+			<ul class="list-inline social-buttons">
+			{% for network in person.social %}
+			  <li class="list-inline-item">
+				<a href="{{ network.url }}" target="_blank">
+				  <i class="{{ network.icon }}"></i>
+				</a>
+			  </li>
+			{% endfor %}
+			</ul>
+		  </div>
+		  {% if person.website and person.website != "" and person.website != nil %}
+		  </a>
+		  {% endif %}
+		</div>
+	  {% endfor %}
+	  </div>
+	  <div class="row">
+		<div class="col-lg-8 mx-auto text-center">
+		  <div class="large text-muted">{{ site.data.sitetext.speakers.subtext | markdownify }}</div>
+		</div>
+	  </div>
+	</div>
+</section>
+{% endif %}
+<!-- End Speakers -->

@@ -1,0 +1,186 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: "The First Workshop on the Application of LLM Explainability to Reasoning and Planning"
+    text: "@ COLM 2025"
+    button: "Submit Your Paper"
+    buttonlink: "#call_for_papers"
+
+  about:
+    title: "About"
+    section: about
+    body: |
+        We are thrilled to announce the First Workshop on the Application of LLM Explainability to Reasoning and Planning at COLM 2025 to be held on **October 10, 2025**. 
+
+        Enabling large language models (LLMs) to **reason** (e.g., arithmetic reasoning, symbolic reasoning, commonsense reasoning, etc.) and **plan** (e.g., path-finding, tool use, web navigation, computer use, etc.) has been a popular topic in the past few years. Despite the exciting achievement, there have also been growing concerns about the safety and trustworthiness of these LLM applications, due to our large "unknowns" on how LLMs achieve these capabilities and where they could fail. On the other hand, **LLM explainability** (broadly including any research explaining or interpreting LLMs) has also attracted increasing attention, but existing research has mostly focused on simplified tasks and hardly yields insights that can be directly applied to realistic reasoning and planning tasks. This discrepancy has consequently raised doubts about the practical meaning of LLM explainability research.
+
+        In this workshop, we aim to bring together researchers from various perspectives to discuss the potential and practical applications of model explainability to advancing LLM reasoning and planning. Specifically, the workshop welcomes submissions on the following topics (non-exclusively): 
+        - local explanations (e.g., feature attribution, textual explanations, including CoT type) of LLMs in reasoning and/or planning tasks; 
+        - global explanations (e.g., mechanistic interpretability) of LLMs in reasoning and/or planning tasks; 
+        - applications of explainability to enhance LLM's effectiveness in reasoning and/or planning tasks; 
+        - applications of explainability to enhance LLM's safety and trustworthiness in reasoning and/or planning tasks; 
+        - user interface development driven by LLM explanations; 
+        - human-LLM collaboration and teaming driven by explanations; and 
+        - explainability-driven, automatic or human-in-the-loop LLM evaluation. 
+
+  accepted_papers:
+    title: "Accepted papers"
+    section: accepted_papers
+    body: "TBD"
+    # papers:
+    #     - 
+
+  speakers:
+    title: "Invited speakers"
+    #text: "Lorem ipsum dolor sit amet consectetur."
+    section: speakers
+    people:
+      - name: "Greg Durrett"
+        role: "University of Texas at Austin"
+        image: assets/img/speakers/greg.png
+        website: https://www.cs.utexas.edu/~gdurrett/
+      - name: "Yonatan Belinkov"
+        role: "Technion"
+        image: assets/img/speakers/yonatan.jpg
+        website: https://belinkov.com/
+      - name: "Ana Marasović"
+        role: "University of Utah"
+        image: assets/img/speakers/ana.jpg
+        website: https://www.anamarasovic.com/
+      - name: "Jennifer Wortman Vaughan"
+        role: "Microsoft Research"
+        image: assets/img/speakers/jenn.jpg
+        website: https://www.jennwv.com/
+    subtext: #This list is currently incomplete as we reach out to additional speakers.
+
+  schedule:
+    title: "Schedule"
+    section: schedule
+    body: ""
+
+    day1:
+        - [Start Time , Session                          , Speaker(s)                      ]
+        - ["08:45"    , Opening Remark                   , "Workshop Organizers"                       ]
+        - ["09:00"    , Invited Talk 1                   , ""            ]
+        - ["10:00"    , Coffee Break (Poster Setup)              , "" ]
+        - ["10:15"    , Invited Talk 2      , ""                              ]
+        - ["11:15"    , Orals and Awards                 , ""                              ]
+        - ["12:00"    , Lunch Break and Mentoring Session                          , ""             ]
+        - ["13:00"    , Poster Session                          , ""             ]
+        - ["14:00"    , Invited Talk 3                          , ""             ]
+        - ["15:00"    , Coffee Break                          , ""             ]
+        - ["15:15"    , Invited Talk 4                          , ""             ]
+        - ["16:15"    , Panel Discussion                          , ""             ]
+        - ["17:00"    , Closing Remark                          , "Workshop Organizers"             ]
+
+
+
+
+  call_for_papers:
+    title: "Call for papers"
+    section: call_for_papers
+    body: |
+        ### Important dates
+         - Submission deadline: June 23, 2025, 23:59 [AoE](https://www.timeanddate.com/time/zones/aoe)
+         - Acceptance notification: July 24, 2025
+
+        ### Submission instructions
+
+        We welcome both long (up to 9 pages of main content, plus unlimited references) and short (up to 5 pages of main content, plus unlimited references) paper submissions, following [the official template of COLM](https://colmweb.org/cfp.html). The long papers are expected to include completed and full-scope work while the short paper submissions can be preliminary or ongoing work. All submissions will be non-archival. We also allow dual submissions that are under review or have recently been accepted to other venues---for the former, authors should make sure to follow the dual submission policies from the other venue; for the latter, we ask authors to indicate the accepted venue.
+
+        <div class="text-center"><br/>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="./">OpenReview Submission Page (TBD)</a>
+        </div>
+
+  program_committee:
+    title: "Program committee"
+    #text: "Lorem ipsum dolor sit amet consectetur."
+    #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: program_committee
+    people:
+      - name: "Daking Rai"
+        role: "George Mason University"
+        image: assets/img/organizers/daking.jpg
+        website: https://dakingrai.github.io/
+      - name: "Hanjie Chen"
+        role: "Rice University"
+        image: assets/img/organizers/hanjie.jpeg
+        website: https://hanjiechen.github.io/
+      - name: "Mengnan Du"
+        role: "New Jersey Institute of Technology"
+        image: assets/img/organizers/mengnan.jpg
+        website: https://mengnandu.com/
+      - name: "Shi Feng"
+        role: "George Washington University"
+        image: assets/img/organizers/shi.avif
+        website: https://shi-feng.super.site/
+      - name: "Q. Vera Liao"
+        role: "Microsoft Research/University of Michigan"
+        image: assets/img/organizers/vera.jpg
+        website: https://www.qveraliao.com/
+      - name: "Andreas Madsen"
+        role: "Guide Labs"
+        image: assets/img/organizers/andreas.webp
+        website: https://andreasmadsen.github.io/
+      - name: "Abulhair Saparov"
+        role: "New York University"
+        image: assets/img/organizers/abu.jpg
+        website: https://asaparov.org/
+      - name: "Ziyu Yao"
+        role: "George Mason University"
+        image: assets/img/organizers/ziyu.jpg
+        website: https://ziyuyao.org/
+      - name: "Yilun Zhou"
+        role: "Salesforce Research"
+        image: assets/img/organizers/yilun.jpg
+        website: https://yilunzhou.github.io/
+    reviewer_text: We sincerely thank the program committee for their considered and thoughtful reviews!
+    reviewers:
+      - name: TBD
+
+  #contact:
+    #title: "Contact Us"
+    #text: "Lorem ipsum or call 123456789"
+    #section: contact
+    #name: "Name*"
+    #name-validation: "Please enter your name."
+    #email: "Email*"
+    #email-validation: "Please enter your email address."
+    #phone: "Phone Number"
+    #phone-validation: "Please enter your phone number."
+    #message: "Message*"
+    #message-validation: "Please enter a message."
+    #subject: "Contact Form Submission"
+    #submit: "Send Message"
+
+  #footer:
+    #legal: "Privacy Policy"
+    #social:
+      #- url: https://twitter.com
+      #  icon: "fab fa-twitter"
+      #- url: https://facebook.com
+      #  icon: "fab fa-facebook-f"
+      #- url: https://linkedin.com
+      #  icon: "fab fa-linkedin-in"
+      #- url: https://github.com/raviriley/agency-jekyll-theme
+      #  icon: "fab fa-github"
+      #- url: https://instagram.com
+      #  icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
