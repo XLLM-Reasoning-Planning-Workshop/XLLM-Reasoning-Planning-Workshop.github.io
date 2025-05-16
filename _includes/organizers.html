@@ -35,6 +35,7 @@
 	</div>
   {% endfor %}
   </div>
+  {% comment %}
   <h3 class="text-muted">Reviewers</h3>
   <div class="row">
 	<div class="col-lg-8 mx-auto text-center">
@@ -65,11 +66,12 @@
 	</div>
   {% endfor %}
   </div>
-  <!--div class="row">
+  {% endcomment %}
+  <div class="row">
 	<div class="col-lg-8 mx-auto text-center">
 	  <div class="large text-muted">{{ site.data.sitetext[site.locale].program_committee.subtext | markdownify }}</div>
 	</div>
-  </div-->
+  </div>
 </div>
 </section>
 {% else %}
@@ -108,6 +110,7 @@
 		</div>
 	  {% endfor %}
 	  </div>
+	  {% comment %}
 	  <h3 class="text-muted">Reviewers</h3>
 	  <div class="row">
 		<div class="col-lg-8 mx-auto text-center">
@@ -136,14 +139,15 @@
 		</a>
 		{% endif %}
 		</div>
-	{% endfor %}
-	<!--/div>
+	  {% endfor %}
+	  </div>
+	  {% endcomment %}
 	  <div class="row">
 		<div class="col-lg-8 mx-auto text-center">
 		  <div class="large text-muted">{{ site.data.sitetext.program_committee.subtext | markdownify }}</div>
 		</div>
 	  </div>
-	</div-->
+	</div>
 </section>
 {% endif %}
 <!-- End Organizers -->
