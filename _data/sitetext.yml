@@ -43,7 +43,7 @@ en: &DEFAULT_EN
     #     - 
 
   speakers:
-    title: "Invited speakers"
+    title: "Invited speakers (tentative)"
     #text: "Lorem ipsum dolor sit amet consectetur."
     section: speakers
     people:
@@ -71,21 +71,20 @@ en: &DEFAULT_EN
     body: ""
 
     day1:
-        - [Start Time , Session                          , Speaker(s)                      ]
-        - ["08:45"    , Opening Remark                   , "Workshop Organizers"                       ]
-        - ["09:00"    , Invited Talk 1                   , ""            ]
-        - ["10:00"    , Coffee Break (Poster Setup)              , "" ]
-        - ["10:15"    , Invited Talk 2      , ""                              ]
-        - ["11:15"    , Orals and Awards                 , ""                              ]
-        - ["12:00"    , Lunch Break and Mentoring Session                          , ""             ]
-        - ["13:00"    , Poster Session                          , ""             ]
-        - ["14:00"    , Invited Talk 3                          , ""             ]
-        - ["15:00"    , Coffee Break                          , ""             ]
-        - ["15:15"    , Invited Talk 4                          , ""             ]
-        - ["16:15"    , Panel Discussion                          , ""             ]
-        - ["17:00"    , Closing Remark                          , "Workshop Organizers"             ]
-
-
+      - TBD
+        # - [Start Time , Session                          , Speaker(s)                      ]
+        # - ["08:45"    , Opening Remark                   , "Workshop Organizers"                       ]
+        # - ["09:00"    , Invited Talk 1                   , ""            ]
+        # - ["10:00"    , Coffee Break (Poster Setup)              , "" ]
+        # - ["10:15"    , Invited Talk 2      , ""                              ]
+        # - ["11:15"    , Orals and Awards                 , ""                              ]
+        # - ["12:00"    , Lunch Break and Mentoring Session                          , ""             ]
+        # - ["13:00"    , Poster Session                          , ""             ]
+        # - ["14:00"    , Invited Talk 3                          , ""             ]
+        # - ["15:00"    , Coffee Break                          , ""             ]
+        # - ["15:15"    , Invited Talk 4                          , ""             ]
+        # - ["16:15"    , Panel Discussion                          , ""             ]
+        # - ["17:00"    , Closing Remark                          , "Workshop Organizers"             ]
 
 
   call_for_papers:
@@ -99,6 +98,9 @@ en: &DEFAULT_EN
         ### Submission instructions
 
         We welcome both long (up to 9 pages of main content, plus unlimited references) and short (up to 5 pages of main content, plus unlimited references) paper submissions, following [the official template of COLM](https://colmweb.org/cfp.html). The long papers are expected to include completed and full-scope work while the short paper submissions can be preliminary or ongoing work. All submissions will be non-archival. We also allow dual submissions that are under review or have recently been accepted to other venues---for the former, authors should make sure to follow the dual submission policies from the other venue; for the latter, we ask authors to indicate the accepted venue.
+
+        ### Workshop awards
+        The workshop will announce one <b>Best Paper Award</b> targeting all authors, and one <b>Special Recognition Award</b> targeting papers with junior and/or underrepresented-group authors being the first authors. Authors submitting to our workshop will be requested to clarify the status of the first author(s) for eligibility confirmation.
 
         <div class="text-center"><br/>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://openreview.net/group?id=colmweb.org/COLM/2025/Workshop/XLLM-Reason-Plan">OpenReview Submission Page</a>
