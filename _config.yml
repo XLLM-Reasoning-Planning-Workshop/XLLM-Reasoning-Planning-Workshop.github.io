@@ -18,7 +18,7 @@ url    : "https://XLLM-Reasoning-Planning-Workshop.github.io" # the base hostnam
 baseurl: "/" # the subpath of your site, e.g. /blog
 
 title      : XLLM-Reason-Plan
-email      : xllm-reasoning-planning-workshop@googlegroups.com #this is also the email contact forms will go to
+email      : xllmreasoningplanningworkshop@gmail.com #this is also the email contact forms will go to
 description: "Website for the Workshop on the Application of LLM Explainability to Reasoning and Planning at COLM 2025"
 author     : Ziyu Yao
 # logo:     #optional, defaults to site title

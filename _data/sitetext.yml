@@ -33,6 +33,8 @@ en: &DEFAULT_EN
         - human-LLM collaboration and teaming driven by explanations; and 
         - explainability-driven, automatic or human-in-the-loop LLM evaluation. 
 
+        **Join our Google Group for workshop updates and Q&A <a href="https://groups.google.com/g/xllm-reasoning-planning-workshop">https://groups.google.com/g/xllm-reasoning-planning-workshop</a>, and contact us at xllmreasoningplanningworkshop AT gmail DOT com for other inquiries!**
+
   accepted_papers:
     title: "Accepted papers"
     section: accepted_papers
@@ -99,7 +101,7 @@ en: &DEFAULT_EN
         We welcome both long (up to 9 pages of main content, plus unlimited references) and short (up to 5 pages of main content, plus unlimited references) paper submissions, following [the official template of COLM](https://colmweb.org/cfp.html). The long papers are expected to include completed and full-scope work while the short paper submissions can be preliminary or ongoing work. All submissions will be non-archival. We also allow dual submissions that are under review or have recently been accepted to other venues---for the former, authors should make sure to follow the dual submission policies from the other venue; for the latter, we ask authors to indicate the accepted venue.
 
         <div class="text-center"><br/>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="./">OpenReview Submission Page (TBD)</a>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://openreview.net/group?id=colmweb.org/COLM/2025/Workshop/XLLM-Reason-Plan">OpenReview Submission Page</a>
         </div>
 
   program_committee:
@@ -148,20 +150,20 @@ en: &DEFAULT_EN
     reviewers:
       - name: TBD
 
-  #contact:
-    #title: "Contact Us"
-    #text: "Lorem ipsum or call 123456789"
-    #section: contact
-    #name: "Name*"
-    #name-validation: "Please enter your name."
-    #email: "Email*"
-    #email-validation: "Please enter your email address."
-    #phone: "Phone Number"
-    #phone-validation: "Please enter your phone number."
-    #message: "Message*"
-    #message-validation: "Please enter a message."
-    #subject: "Contact Form Submission"
-    #submit: "Send Message"
+  # contact:
+  #   title: "Contact Us"
+  #   text: "Lorem ipsum or call 123456789"
+  #   section: contact
+  #   name: "Name*"
+  #   name-validation: "Please enter your name."
+  #   email: "Email*"
+  #   email-validation: "Please enter your email address."
+  #   phone: "Phone Number"
+  #   phone-validation: "Please enter your phone number."
+  #   message: "Message*"
+  #   message-validation: "Please enter a message."
+  #   subject: "Contact Form Submission"
+  #   submit: "Send Message"
 
   #footer:
     #legal: "Privacy Policy"
