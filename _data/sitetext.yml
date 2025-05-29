@@ -73,7 +73,7 @@ en: &DEFAULT_EN
         website: https://eilab.gatech.edu/mark-riedl.html
       - name: "Huan Sun"
         role: "The Ohio State University"
-        image: assets/img/speakers/huan.jpeg
+        image: assets/img/speakers/huan.png
         website: https://cse.osu.edu/people/sun.397
     subtext: #This list is currently incomplete as we reach out to additional speakers.
 
