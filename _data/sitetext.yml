@@ -63,6 +63,18 @@ en: &DEFAULT_EN
         role: "Microsoft Research"
         image: assets/img/speakers/jenn.jpg
         website: https://www.jennwv.com/
+      - name: "Zining Zhu"
+        role: "Stevens Institute of Technology"
+        image: assets/img/speakers/zining.png
+        website: https://ecailab.org/
+      - name: "Mark Riedl"
+        role: "Georgia Institute of Technology"
+        image: assets/img/speakers/reidl.png
+        website: https://eilab.gatech.edu/mark-riedl.html
+      - name: "Huan Sun"
+        role: "The Ohio State University"
+        image: assets/img/speakers/huan.png
+        website: https://cse.osu.edu/people/sun.397
     subtext: #This list is currently incomplete as we reach out to additional speakers.
 
   schedule:
