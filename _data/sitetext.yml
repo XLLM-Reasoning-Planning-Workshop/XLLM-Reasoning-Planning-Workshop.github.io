@@ -69,7 +69,7 @@ en: &DEFAULT_EN
         website: https://ecailab.org/
       - name: "Mark Riedl"
         role: "Georgia Institute of Technology"
-        image: assets/img/speakers/reidl.jpeg
+        image: assets/img/speakers/riedl.jpeg
         website: https://eilab.gatech.edu/mark-riedl.html
       - name: "Huan Sun"
         role: "The Ohio State University"
