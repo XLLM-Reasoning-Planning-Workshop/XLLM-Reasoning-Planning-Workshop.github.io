@@ -47,6 +47,22 @@ en: &DEFAULT_EN
     #text: "Lorem ipsum dolor sit amet consectetur."
     section: speakers
     people:
+      - name: "Greg Durrett"
+        role: "University of Texas at Austin"
+        image: assets/img/speakers/greg.png
+        website: https://www.cs.utexas.edu/~gdurrett/
+      - name: "Yonatan Belinkov"
+        role: "Technion"
+        image: assets/img/speakers/yonatan.jpg
+        website: https://belinkov.com/
+      - name: "Ana Marasović"
+        role: "University of Utah"
+        image: assets/img/speakers/ana.jpg
+        website: https://www.anamarasovic.com/
+      - name: "Jennifer Wortman Vaughan"
+        role: "Microsoft Research"
+        image: assets/img/speakers/jenn.jpg
+        website: https://www.jennwv.com/
       - name: "Zining Zhu"
         role: "Stevens Institute of Technology"
         image: assets/img/speakers/zining.png
