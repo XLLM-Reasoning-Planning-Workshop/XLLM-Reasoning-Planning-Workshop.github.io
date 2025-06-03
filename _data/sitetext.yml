@@ -43,7 +43,7 @@ en: &DEFAULT_EN
     #     - 
 
   speakers:
-    title: "Invited speakers (tentative)"
+    title: "Invited speakers"
     #text: "Lorem ipsum dolor sit amet consectetur."
     section: speakers
     people:
