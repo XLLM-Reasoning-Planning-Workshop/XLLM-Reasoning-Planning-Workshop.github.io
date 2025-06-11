@@ -11,8 +11,6 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Accepted Papers"
-      section: accepted_papers
     - title: "Speakers"
       section: speakers
     - title: "Schedule"
