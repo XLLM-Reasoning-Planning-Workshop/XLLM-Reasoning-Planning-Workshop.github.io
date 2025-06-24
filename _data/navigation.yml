@@ -11,12 +11,12 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Accepted Papers"
-      section: accepted_papers
+    #- title: "Accepted Papers"
+    #  section: accepted_papers
     - title: "Speakers"
       section: speakers
-    - title: "Schedule"
-      section: schedule
+    #- title: "Schedule"
+    #  section: schedule
     - title: "Call"
       section: call_for_papers
     - title: "Program committee"
