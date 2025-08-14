@@ -42,9 +42,25 @@ en: &DEFAULT_EN
     papers:
         - ["The Geometry of Self-Verification in a Task-Specific Reasoning Model", "Andrew Lee, Lihao Sun, Chris Wendler, Fernanda Viégas, Martin Wattenberg"]
         - ["Attributing Response to Context: A Jensen–Shannon Divergence Driven Mechanistic Study of Context Attribution in Retrieval-Augmented Generation", "Ruizhe Li, Chen Chen, Yuchen Hu, Yanjun Gao, Xi Wang, Emine Yilmaz"]
-
-
-    
+        - ["When Models Know More Than They Can Explain: Quantifying Knowledge Transfer in Human-AI Collaboration", Quan Shi, Carlos E Jimenez, Shunyu Yao, Nick Haber, Diyi Yang, Karthik R Narasimhan]
+        - ["Enhancing Logical Reasoning in Large Language Models through Graph-based Synthetic Data", Jiaming Zhou, Abbas Ghaddar, Ge Zhang, Liheng Ma, Yaochen Hu, Soumyasundar Pal, Bin Wang, Jianye HAO, Mark Coates, Yingxue Zhang]
+        - ["Disambiguate First, Parse Later: Generating Interpretations for Ambiguity Resolution in Semantic Parsing", Irina Saparina, Mirella Lapata]
+        - ["Beyond Autocomplete: Designing CopilotLens Towards Transparent and Explainable AI Coding Agents", Runlong Ye, Zeling Zhang, Boushra Almazroua, Michael Liut]
+        - ["Latent Chain-of-Thought? Decoding the Depth-Recurrent Transformer", Wenquan Lu, Yuechuan Yang, Kyle Lee, Yanshu Li, Enqi Liu]
+        - ["Rethinking (Human) Preference Evaluation of LLM Rationales", Ziang Li, Manasi Ganti, Zixian Ma, Helena Vasconcelos, Qijia He, Ranjay Krishna]
+        - ["HYBRIDMIND: Meta Selection of Natural Language and Symbolic Language for Enhanced LLM Reasoning", Simeng Han, Tianyu Liu, Chuhan Li, Xuyuan Xiong, Arman Cohan]
+        - ["Angular Steering: Behavior Control via Rotation in Activation Space", Hieu M. Vu, Tan Minh Nguyen]
+        - ["Can LLMs Reason Abstractly Over Math Word Problems Without CoT? Disentangling Abstract Formulation From Arithmetic Computation", Ziling Cheng, Meng Cao, Leila Pishdad, Yanshuai Cao, Jackie CK Cheung]
+        - ["Creativity or Brute Force? Using Brainteasers as a Window into the Problem-Solving Abilities of Large Language Models", Simeng Han, Stephen Xia, Grant Zhang, Howard Dai, Chen Liu, Lichang Chen, Hoang H Nguyen, Hongyuan Mei, Jiayuan Mao, R. Thomas McCoy]
+        - ["Case-Based Reasoning Enhances the Predictive Power of LLMs in Drug-Drug Interaction", Guangyi Liu, Yongqi Zhang, Xunyuan Liu, Quanming Yao]
+        - ["Are General-Purpose LLMs Ready for Planning? A Large-Scale Evaluation in PDDL", Kaustubh Vyas, Damien Graux, Sebastien Montella, Pavlos Vougiouklis, Jeff Z. Pan]
+        - ["ReCalibrate: RL for Uncertainty-Aware Reasoning in LLMs", Mehul Damani, Isha Puri, Stewart Slocum, Idan Shenfeld, Jacob Andreas]
+        - ["Failure by Interference: Language Models Make Balanced Parentheses Errors When Faulty Mechanisms Overshadow Sound Ones", Daking Rai, Samuel Miller, Kevin Moran, Ziyu Yao]
+        - ["From Indirect Object Identification to Syllogisms: Exploring Binary Mechanisms in Transformer Circuits", Karim Saraipour, Shichang Zhang]
+        - ["How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence", Hongzhe Du, Weikai Li, Min Cai, Karim Saraipour, Zimin Zhang, Yizhou Sun, Himabindu Lakkaraju, Shichang Zhang]
+        - ["Everything is Plausible: Investigating the Impact of LLM Rationales on Human Notions of Plausibility", Shramay Palta, Peter A. Rankel, Sarah Wiegreffe, Rachel Rudinger]
+        - ["Before You 〈think/〉, Monitor: Implementing Flavell's Metacognitive Framework in LLMs", Nick Oh]
+        - ["Reasoning Riddles: How Explainability Reveals Cognitive Limits in Vision-Language Models", Prahitha Movva]
 
   speakers:
     title: "Invited speakers"
