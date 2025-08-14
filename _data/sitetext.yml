@@ -182,7 +182,7 @@ en: &DEFAULT_EN
         website: https://yilunzhou.github.io/
     reviewer_text: We sincerely thank the program committee for their considered and thoughtful reviews!
     reviewers:
-      - name: TBD
+      - name: [Lihao Sun, Maria Chang, Yilin Xia, Haotian Xia, Jiaming Zhou, Haiyan Zhao, Mahdi Dhaini, Aadim Nepal, Ziling Cheng, David Atkinson, Chuhan Li, Jaechul Roh, Ruidi Chang, Siddarth Mamidanna, Hieu M. Vu, Prahitha Movva, Runlong Ye, Yanshu Li, Sushma Anand Akoju, Guangyi Liu, Weikai Li, Boshi Wang, Jinkun Chen, Stepan Shabalin, Ziang Li, Zhouxiang Fang, Preet Jhanglani, Min Cai, Kaustubh Vyas, Shichang Zhang, Oscar Balcells Obeso, Patrick Leask, Hao Yan, Xuansheng Wu, Dennis Wei, Chunyuan Deng, Ruoyu Chen, Zhengzhe Yang, Nikhil Prakash, Prasanth]
 
   # contact:
   #   title: "Contact Us"
