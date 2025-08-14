@@ -144,7 +144,7 @@ en: &DEFAULT_EN
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: program_committee
     people:
-      - name: "Daking Rai1"
+      - name: "Daking Rai"
         role: "George Mason University"
         image: assets/img/organizers/daking.jpg
         website: https://dakingrai.github.io/
@@ -182,7 +182,47 @@ en: &DEFAULT_EN
         website: https://yilunzhou.github.io/
     reviewer_text: We sincerely thank the program committee for their considered and thoughtful reviews!
     reviewers:
-      - name: [Lihao Sun, Maria Chang, Yilin Xia, Haotian Xia, Jiaming Zhou, Haiyan Zhao, Mahdi Dhaini, Aadim Nepal, Ziling Cheng, David Atkinson, Chuhan Li, Jaechul Roh, Ruidi Chang, Siddarth Mamidanna, Hieu M. Vu, Prahitha Movva, Runlong Ye, Yanshu Li, Sushma Anand Akoju, Guangyi Liu, Weikai Li, Boshi Wang, Jinkun Chen, Stepan Shabalin, Ziang Li, Zhouxiang Fang, Preet Jhanglani, Min Cai, Kaustubh Vyas, Shichang Zhang, Oscar Balcells Obeso, Patrick Leask, Hao Yan, Xuansheng Wu, Dennis Wei, Chunyuan Deng, Ruoyu Chen, Zhengzhe Yang, Nikhil Prakash, Prasanth]
+      - name: "Lihao Sun"
+      - name: "Maria Chang"
+      - name: "Yilin Xia"
+      - name: "Haotian Xia"
+      - name: "Jiaming Zhou"
+      - name: "Haiyan Zhao"
+      - name: "Mahdi Dhaini"
+      - name: "Aadim Nepal"
+      - name: "Ziling Cheng"
+      - name: "David Atkinson"
+      - name: "Chuhan Li"
+      - name: "Jaechul Roh"
+      - name: "Ruidi Chang"
+      - name: "Siddarth Mamidanna"
+      - name: "Hieu M. Vu"
+      - name: "Prahitha Movva"
+      - name: "Runlong Ye"
+      - name: "Yanshu Li"
+      - name: "Sushma Anand Akoju"
+      - name: "Guangyi Liu"
+      - name: "Weikai Li"
+      - name: "Boshi Wang"
+      - name: "Jinkun Chen"
+      - name: "Stepan Shabalin"
+      - name: "Ziang Li"
+      - name: "Zhouxiang Fang"
+      - name: "Preet Jhanglani"
+      - name: "Min Cai"
+      - name: "Kaustubh Vyas"
+      - name: "Shichang Zhang"
+      - name: "Oscar Balcells Obeso"
+      - name: "Patrick Leask"
+      - name: "Hao Yan"
+      - name: "Xuansheng Wu"
+      - name: "Dennis Wei"
+      - name: "Chunyuan Deng"
+      - name: "Ruoyu Chen"
+      - name: "Zhengzhe Yang"
+      - name: "Nikhil Prakash"
+      - name: "Prasanth"
+
 
   # contact:
   #   title: "Contact Us"
