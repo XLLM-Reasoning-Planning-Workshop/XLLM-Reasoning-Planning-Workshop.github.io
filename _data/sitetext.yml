@@ -128,7 +128,7 @@ en: &DEFAULT_EN
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: program_committee
     people:
-      - name: "Daking Rai"
+      - name: "Daking Rai1"
         role: "George Mason University"
         image: assets/img/organizers/daking.jpg
         website: https://dakingrai.github.io/
