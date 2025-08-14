@@ -40,8 +40,8 @@ en: &DEFAULT_EN
     section: accepted_papers
     text: "TBD"
     papers:
-        - ["The Geometry of Self-Verification in a Task-Specific Reasoning Model", "Andrew Lee, Lihao Sun, Chris Wendler, Fernanda Viégas, Martin Wattenberg", "#", "#"]
-        - ["Attributing Response to Context: A Jensen–Shannon Divergence Driven Mechanistic Study of Context Attribution in Retrieval-Augmented Generation", "Ruizhe Li, Chen Chen, Yuchen Hu, Yanjun Gao, Xi Wang, Emine Yilmaz", "#", "#"]
+        - ["The Geometry of Self-Verification in a Task-Specific Reasoning Model", "Andrew Lee, Lihao Sun, Chris Wendler, Fernanda Viégas, Martin Wattenberg"]
+        - ["Attributing Response to Context: A Jensen–Shannon Divergence Driven Mechanistic Study of Context Attribution in Retrieval-Augmented Generation", "Ruizhe Li, Chen Chen, Yuchen Hu, Yanjun Gao, Xi Wang, Emine Yilmaz"]
 
 
     
