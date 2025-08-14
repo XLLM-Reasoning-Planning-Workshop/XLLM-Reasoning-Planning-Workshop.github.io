@@ -1,6 +1,5 @@
 <!-- Accepted papers -->
-<!-- {% if site.locale and site.locale != "" and site.locale != nil %} -->
-<h>test</h>>
+{% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].accepted_papers.section | default: "accepted_papers" }}">
   <div class="container">
     <div class="row">
@@ -62,5 +61,5 @@
     </div>
   </div>
 </section>
-<!-- {% endif %} -->
+{% endif %}
 <!-- End Accepted papers -->
