@@ -68,7 +68,7 @@ en: &DEFAULT_EN
     section: speakers
     people:
       - name: "Greg Durrett"
-        role: "University of Texas at Austin"
+        role: "New York University"
         image: assets/img/speakers/greg.png
         website: https://www.cs.utexas.edu/~gdurrett/
       - name: "Yonatan Belinkov"
