@@ -8,8 +8,7 @@
 	  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].program_committee.text }}</h3>
 	</div>
   </div>
-  <h3 class="text-muted">Workshop organizers</h3><br/>
-  <p> this is test</p>
+  <h3 class="text-muted">Workshop organizers3</h3><br/>
   <div class="row d-flex justify-content-center">
   {% for person in site.data.sitetext[site.locale].program_committee.people %}
 	<div class="col-sm-4">
@@ -51,11 +50,23 @@
 	  <div class="team-member">
 		<h5>{{ person.name }}</h5>
 		<ul class="list-inline social-buttons">
+		{% comment %}
 		{% for network in person.social %}
 		  <li class="list-inline-item">
 			<a href="{{ network.url }}" target="_blank">
 			  <i class="{{ network.icon }}"></i>
 			</a>
+		  </li>
+		{% endfor %}
+		{% endcomment %}
+		</ul>
+	  </div>
+	  {% if person.website and person.website != "" and person.website != nil %}
+	  </a>
+	  {% endif %}
+	</div>
+  {% endfor %}
+  </div>
 		  </li>
 		{% endfor %}
 		</ul>
