@@ -33,7 +33,7 @@ en: &DEFAULT_EN
         - human-LLM collaboration and teaming driven by explanations; and 
         - explainability-driven, automatic or human-in-the-loop LLM evaluation. 
 
-        **Join our Google Group for workshop updates and Q&A <a href="https://groups.google.com/g/xllm-reasoning-planning-workshop">https://groups.google.com/g/xllm-reasoning-planning-workshop</a>, and contact us at xllmreasoningplanningworkshop AT gmail DOT com for other inquiries!**
+        **Join our Google Group for workshop updates and Q&A <a class="link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="https://groups.google.com/g/xllm-reasoning-planning-workshop">https://groups.google.com/g/xllm-reasoning-planning-workshop</a>, and contact us at xllmreasoningplanningworkshop AT gmail DOT com for other inquiries!**
 
   accepted_papers:
     title: "Accepted papers"
