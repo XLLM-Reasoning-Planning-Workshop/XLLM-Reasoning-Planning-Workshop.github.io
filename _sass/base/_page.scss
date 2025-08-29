@@ -77,3 +77,7 @@ img::-moz-selection {
 .large {
   font-size: 1.04rem;
 }
+
+.table {
+  --bs-table-bg: transparent !important;
+}
