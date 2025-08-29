@@ -86,7 +86,7 @@
 	  {% for person in site.data.sitetext.program_committee.people %}
 		<div class="col-sm-4">
 		  {% if person.website and person.website != "" and person.website != nil %}
-		  <a href="{{ person.website }}" target="_blank">
+		  <a class="link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="{{ person.website }}" target="_blank">
 		  {% endif %}
 		  <div class="team-member">
 			<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
@@ -118,7 +118,7 @@
 	  {% for person in site.data.sitetext[site.locale].program_committee.reviewers %}
 		<div class="col-sm-4">
 		{% if person.website and person.website != "" and person.website != nil %}
-		<a href="{{ person.website }}" target="_blank">
+		<a class="link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="{{ person.website }}" target="_blank">
 		{% endif %}
 		<div class="team-member">
 			<h5>{{ person.name }}</h5>
