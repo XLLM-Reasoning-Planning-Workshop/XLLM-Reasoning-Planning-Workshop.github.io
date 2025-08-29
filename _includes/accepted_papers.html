@@ -15,7 +15,7 @@
             <tbody>
               {% for row in site.data.sitetext[site.locale].accepted_papers.papers %}
               <tr>
-                <td> <p class="font-weight-bold">{{ row[0] }}</p> <p>{{ row[1] }}</p> </td>
+                <td> <p class="fw-bold">{{ row[0] }}</p> <p>{{ row[1] }}</p> </td>
                 {% if row.size > 2 %}
                 <td> <a href="{{row[2]}}" target="_blank">[PDF]</a>
                 {% endif %}
@@ -48,7 +48,7 @@
             <tbody>
               {% for row in site.data.sitetext[site.locale].accepted_papers.papers %}
               <tr>
-                <td> <p class="font-weight-bold">{{ row[0] }}</p> <p>{{ row[1] }}</p> </td>
+                <td> <p class="fw-bold">{{ row[0] }}</p> <p>{{ row[1] }}</p> </td>
                 <td> <a href="{{row[2]}}" target="_blank">[PDF]</a>
                 {% if row.size > 3 %}
                   <a href="{{row[3]}}" target="_blank">[vid]</a>
