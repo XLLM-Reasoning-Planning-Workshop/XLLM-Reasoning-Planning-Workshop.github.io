@@ -11,9 +11,9 @@ p {
 a {
   color: $primary;
   --bs-link-hover-color-rgb: $primary;
-  @extend link-underline;
-  @extend link-underline-opacity-0;
-  @extend link-underline-opacity-100-hover;
+  @extend .link-underline;
+  @extend .link-underline-opacity-0;
+  @extend .link-underline-opacity-100-hover;
 
   &:hover {
     color: darken($primary, 10%);
