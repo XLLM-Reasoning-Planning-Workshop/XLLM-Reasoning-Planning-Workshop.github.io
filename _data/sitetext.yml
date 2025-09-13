@@ -177,7 +177,7 @@ en: &DEFAULT_EN
         image: assets/img/organizers/ziyu.jpg
         website: https://ziyuyao.org/
       - name: "Yilun Zhou"
-        role: "Salesforce Research"
+        role: "Datadog AI Research"
         image: assets/img/organizers/yilun.jpg
         website: https://yilunzhou.github.io/
     reviewer_text: We sincerely thank the program committee for their considered and thoughtful reviews!
