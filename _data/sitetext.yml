@@ -103,20 +103,19 @@ en: &DEFAULT_EN
     body: ""
 
     day1:
-      - TBD
-        - [Start Time , Session                          , Speaker(s)                      ]
-        - ["8:45 - 9:00 AM"    , Opening Remark                   , "Workshop Organizers"                       ]
-        - ["9:00 - 9:40 AM"    , Invited Talk 1                   , "Yonatan Belinkov"            ]
-        - ["9:40 - 10:20 AM"    , Invited Talk 2              , "Greg Durrett" ]
-        - ["10:20 - 11:00 AM"    , Invited Talk 3      , "Huan Sun"                              ]
-        - ["11:00 - 12:00 PM"    , Coffee Break & Poster Session 1                          , ""             ]
-        - ["12:00 - 12:40 PM"    , Invited Talk 4                         , "Ana Marasović"             ]
-        - ["12:40 - 14:00 PM"    , Lunch Break                          , ""             ]
-        - ["14:00 - 14:40 PM"    , Invited Talk 5                            , "Mark Riedl"             ]
-        - ["14:40 - 15:20 PM"    , Invited Talk 6                          , "Jenn Wortman Vaughan"             ]
-        - ["15:20 - 16:00 PM"    , Coffee Break & Poster Session 2                          , ""             ]
-        - ["16:00 - 16:40 PM"    , Invited Talk 7                          , "Zining Zhu"             ]
-        - ["16:40 - 17:15 PM"    , Panel Discussion &  Closing Remark                          , ""             ]
+        - [Start Time - End Time , Session, Speaker(s)]
+        - ["8:45 - 9:00 AM", Opening Remark, "Workshop Organizers"]
+        - ["9:00 - 9:40 AM", Invited Talk 1, "Yonatan Belinkov"]
+        - ["9:40 - 10:20 AM", Invited Talk 2, "Greg Durrett"]
+        - ["10:20 - 11:00 AM", Invited Talk 3, "Huan Sun"]
+        - ["11:00 - 12:00 PM", Coffee Break & Poster Session 1, ""]
+        - ["12:00 - 12:40 PM", Invited Talk 4, "Ana Marasović"]
+        - ["12:40 - 14:00 PM", Lunch Break, ""]
+        - ["14:00 - 14:40 PM", Invited Talk 5, "Mark Riedl"]
+        - ["14:40 - 15:20 PM", Invited Talk 6, "Jenn Wortman Vaughan"]
+        - ["15:20 - 16:00 PM", Coffee Break & Poster Session 2, ""]
+        - ["16:00 - 16:40 PM", Invited Talk 7, "Zining Zhu"]
+        - ["16:40 - 17:15 PM", Panel Discussion & Closing Remark, ""]
 
 
   call_for_papers:
