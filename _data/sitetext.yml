@@ -104,7 +104,7 @@ en: &DEFAULT_EN
 
     day1:
         - [Start Time , Session, Speaker(s)]
-        - ["8:45 AM", Opening Remark, "Workshop Organizers"]
+        - ["8:45 AM", Opening Remarks, "Workshop Organizers"]
         - ["9:00 AM", Invited Talk 1, "Yonatan Belinkov"]
         - ["9:40 AM", Invited Talk 2, "Greg Durrett"]
         - ["10:20 AM", Invited Talk 3, "Huan Sun"]
@@ -115,7 +115,7 @@ en: &DEFAULT_EN
         - ["2:40 PM", Invited Talk 6, "Jenn Wortman Vaughan"]
         - ["3:20 PM", Coffee Break & Poster Session 2, ""]
         - ["4:00 PM", Invited Talk 7, "Zining Zhu"]
-        - ["4:40 PM", Panel Discussion & Closing Remark, ""]
+        - ["4:40 PM", Panel Discussion & Closing Remarks, ""]
         - ["5:15 PM", Workshop End, ""]
 
 
