@@ -107,15 +107,15 @@ en: &DEFAULT_EN
         - ["8:45 AM", Opening Remarks, "Workshop Organizers"]
         - ["9:00 AM", Invited Talk 1, "Yonatan Belinkov"]
         - ["9:40 AM", Invited Talk 2, "Greg Durrett"]
-        - ["10:20 AM", Invited Talk 3, "Huan Sun"]
+        - ["10:20 AM", Invited Talk 3 (How Explanations Can Advance Capability and Safety - World Modeling and Circuit Discovery), "Huan Sun"]
         - ["11:00 AM", Coffee Break & Poster Session 1, ""]
         - ["12:00 PM", Invited Talk 4, "Ana Marasović"]
         - ["12:40 PM", Lunch Break, ""]
         - ["2:00 PM", Invited Talk 5, "Mark Riedl"]
         - ["2:40 PM", Invited Talk 6, "Jenn Wortman Vaughan"]
         - ["3:20 PM", Coffee Break & Poster Session 2, ""]
-        - ["4:00 PM", Invited Talk 7, "Zining Zhu"]
-        - ["4:40 PM", Panel Discussion & Closing Remarks, ""]
+        - ["4:00 PM", Invited Talk 7 (Improving LLM reasoning with mechanistic interpretability insights), "Zining Zhu"]
+        - ["4:40 PM", Closing Remarks, ""]
         - ["5:15 PM", Workshop End, ""]
 
 
