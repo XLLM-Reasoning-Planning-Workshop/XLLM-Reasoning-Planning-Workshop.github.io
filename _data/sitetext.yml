@@ -111,7 +111,7 @@ en: &DEFAULT_EN
         - ["11:00 AM", Coffee Break & Poster Session 1, ""]
         - ["12:00 PM", Invited Talk 4 (Human-Centered AI for LLMs), "Ana Marasović"]
         - ["12:40 PM", Lunch Break, ""]
-        - ["2:00 PM", Invited Talk 5 (Reasoning,Explanation, and Human-Centered AI), "Mark Riedl"]
+        - ["2:00 PM", "Invited Talk 5 (Reasoning,Explanation, and Human-Centered AI)", "Mark Riedl"]
         - ["2:40 PM", Invited Talk 6 (Towards More Explainable LLMs), "Jenn Wortman Vaughan"]
         - ["3:20 PM", Coffee Break & Poster Session 2, ""]
         - ["4:00 PM", Invited Talk 7 (Improving LLM reasoning with mechanistic interpretability insights), "Zining Zhu"]
