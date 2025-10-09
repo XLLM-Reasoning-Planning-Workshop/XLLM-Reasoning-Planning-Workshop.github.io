@@ -105,7 +105,7 @@ en: &DEFAULT_EN
     day1:
         - [Start Time , Session, Speaker(s)]
         - ["8:45 AM", Opening Remarks, "Workshop Organizers"]
-        - ["9:00 AM", "Invited Talk 1", "Yonatan Belinkov"]
+        - ["9:00 AM", "Invited Talk 1: Toward Scalable and Actionable Interpretability ", "Yonatan Belinkov"]
         - ["9:40 AM", "Invited Talk 2: LLM Reasoning Beyond Scaling", "Greg Durrett"]
         - ["10:20 AM", "Invited Talk 3: How Explanations Can Advance Capability and Safety: World Modeling and Circuit Discovery", "Huan Sun"]
         - ["11:00 AM", Coffee Break & Poster Session 1, ""]
