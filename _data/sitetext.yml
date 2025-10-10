@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: "The First Workshop on the Application of LLM Explainability to Reasoning and Planning"
-    text: "@ COLM 2025"
+    text: "@ COLM 2025 (room 520f)"
     button: "Submit Your Paper"
     buttonlink: "#call_for_papers"
 
@@ -20,7 +20,7 @@ en: &DEFAULT_EN
     title: "About"
     section: about
     body: |
-        We are thrilled to announce the First Workshop on the Application of LLM Explainability to Reasoning and Planning at COLM 2025 to be held on **October 10, 2025**. 
+        We are thrilled to announce the First Workshop on the Application of LLM Explainability to Reasoning and Planning at COLM 2025 to be held on **October 10, 2025**. The workshop is located in Room 520f (other side of the hall).
 
         Enabling large language models (LLMs) to **reason** (e.g., arithmetic reasoning, symbolic reasoning, commonsense reasoning, etc.) and **plan** (e.g., path-finding, tool use, web navigation, computer use, etc.) has been a popular topic in the past few years. Despite the exciting achievement, there have also been growing concerns about the safety and trustworthiness of these LLM applications, due to our large "unknowns" on how LLMs achieve these capabilities and where they could fail. On the other hand, **LLM explainability** (broadly including any research explaining or interpreting LLMs) has also attracted increasing attention, but existing research has mostly focused on simplified tasks and hardly yields insights that can be directly applied to realistic reasoning and planning tasks. This discrepancy has consequently raised doubts about the practical meaning of LLM explainability research.
 
