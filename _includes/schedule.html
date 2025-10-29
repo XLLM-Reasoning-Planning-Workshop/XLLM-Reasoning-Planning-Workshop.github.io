@@ -24,7 +24,12 @@
               <tr>
                 <th scope="row">{{ row[0] }}</th>
                 {% for item in row offset:1 %}
+                
+                {% if forloop.last and item contains "http" %}
+                  <td><a href="{{ item }}" target="_blank">Video</a></td>
+                {% else %}
                 <td>{{ item }}</td>
+                {% endif %}
                 {% endfor %}
               </tr>
               {% endfor %}
