@@ -21,7 +21,19 @@
             <tbody>
               {% for row in site.data.sitetext[site.locale].accepted_papers.papers %}
               <tr>
-                <td> <p class="fw-bold">{{ row[0] }}</p> <p>{{ row[1] }}</p> </td>
+                <td>
+                  <p class="fw-bold">
+                    {{ row[0] }}
+                    {% if row.size > 2 and row[2] contains "Best Paper Award" %}
+                      <span class="badge bg-success ms-2">🏆 Best Paper Award</span>
+                    {% elsif row.size > 2 and row[2] contains "Honorable Mention" %}
+                  <span class="badge bg-info ms-2">⭐ Honorable Mention</span>
+                  {% elsif row.size > 2 and row[2] contains "Special Recognition Award" %}
+                  <span class="badge bg-info ms-2">⭐ Special Recognition Award</span>
+                  {% endif %}
+                </p>
+                  <p>{{ row[1] }}</p>
+                </td>
                 {% if row.size > 2 %}
                 <td> <a href="{{row[2]}}" target="_blank">[PDF]</a>
                 {% if row.size > 3 %}
