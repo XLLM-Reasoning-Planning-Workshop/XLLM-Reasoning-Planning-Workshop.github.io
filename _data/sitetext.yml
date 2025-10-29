@@ -35,6 +35,8 @@ en: &DEFAULT_EN
 
         **Join our Google Group for workshop updates and Q&A <a class="link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="https://groups.google.com/g/xllm-reasoning-planning-workshop">https://groups.google.com/g/xllm-reasoning-planning-workshop</a>, and contact us at xllmreasoningplanningworkshop AT gmail DOT com for other inquiries!**
 
+        Thank everyone for attending the first edition of the XLLM-Reason-Plann Workshop at COLM 2025! We received a total number of 39 papers (25 long and 14 short papers) and accepted 20 papers (13 long and 7 short papers). You can view detailed submission statistics <a href="https://xllm-reasoning-planning-workshop.github.io/assets/img/paper-stat.pdf">here</a>.
+
   accepted_papers:
     title: "Accepted papers"
     section: accepted_papers
