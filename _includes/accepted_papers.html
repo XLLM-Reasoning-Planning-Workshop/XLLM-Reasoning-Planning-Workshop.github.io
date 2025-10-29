@@ -34,9 +34,9 @@
                 </p>
                   <p>{{ row[1] }}</p>
                 </td>
-                {% if row.size > 2 %}
-                <td> <a href="{{row[2]}}" target="_blank">[PDF]</a>
                 {% if row.size > 3 %}
+                <td> <a href="{{row[2]}}" target="_blank">[PDF]</a>
+                {% if row.size > 4 %}
                   <a href="{{row[3]}}" target="_blank">[vid]</a>
                 {% endif %}
                 </td>
